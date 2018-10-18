@@ -16,24 +16,6 @@ Latest Changes
 - The 'auth' subcommand on the 'gdfstool' command is now obsolete. Though you may continue to use this subcommand, please start using the 'auth_get_url' and 'auth_write' subcommands as this subcommand will be removed in the future.
 
 
----------
-Important
----------
-
-Both *PyPI* and the Google Code downloads for *google_api_python_client* have an
-old version of their libraries, prior to when they fixed some Unicode problems
-that might cause failure when dealing with downloads/uploads of certain types
-of files.
-
-To install using *git*, do the following::
-
-    $ git clone https://github.com/google/google-api-python-client
-
-    $ cd google-api-python-client
-    $ sudo python setup.py install
-    $ sudo python setup.py install_egg_info
-
-
 ------------
 Installation
 ------------
